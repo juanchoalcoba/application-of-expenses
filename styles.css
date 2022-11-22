@@ -1,0 +1,37 @@
+td, th {
+    border: solid rgb(0, 0, 0) 1px;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+form {
+    text-align: center;
+}
+label {
+    font-size: 20px;
+}
+
+input {
+    filter: drop-shadow(4px 4px 4px rgb(11, 0, 0));
+}
+
+.formField {
+  background-color: wheat;
+  padding-bottom: 20px;
+}
+#botonDeEnvio {
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.tableFormat table {
+    margin: 0 auto;
+}
+
+.porigual {
+    display: grid;
+    margin: 0 auto;
+}

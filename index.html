@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+        <h1>Mi aplicacion para gastos</h1>
+        <form id="transactionForm">
+
+            <div class="formField">
+            Tipo de transaccion
+            <input id="ingreso" name="transactionType" type="radio" value="Ingreso">
+            <label for="ingreso">Ingreso</label>
+            <input id="egreso" name="transactionType" type="radio" value="Egreso">
+            <label for="egreso">Egreso</label>
+            </div>
+
+        <div class="formField">
+          <label for="transactionDescription">
+          Descripcion</label>  
+          <input class="porigual" id="transactionDescription" name="transactionDescription">
+        </div>
+
+        <div class="formField">
+          <label for="transactionAmount">
+          Monto</label> 
+          <input class="porigual" id="transactionAmount" name="transactionAmount" type="number">
+        </div>
+
+        <div class="formField">
+          <label for="transactionCategory">
+          Categoria</label>  
+          <input class="porigual" id="transactionCategory" name="transactionCategory">
+        </div>
+
+        <div class="formField">
+          <button id="botonDeEnvio" name="botonDeEnvio">Añadir</button>
+        </div>
+    </form>
+    <div class="tableFormat">
+      <table id="transactionTable">
+        <tr>
+            <th>
+                Tipo
+            </th>
+            <th>
+                Descripcion
+            </th>
+            <th>
+                Monto
+            </th>
+            <th>
+                Categoria
+            </th>
+        </tr>
+        <tr>
+            
+        </tr>
+        <tr>
+           
+            
+        </tr>
+      </table>
+    </div>
+
+    <script src="script.js"></script>
+
+
+</body>
+</html>
